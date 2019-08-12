@@ -1,9 +1,9 @@
 import React, { useState } from "react"
 
 import Layout from "../components/layout"
-import Video from "../components/Video"
-import Hero from "../components/Hero"
-import Content from "../components/Content"
+import Video from "../components/video"
+import Hero from "../components/hero"
+import Content from "../components/content"
 
 const IndexPage = () => {
   const [isHeaderFixed, setIsHeaderFixed] = useState(false);
